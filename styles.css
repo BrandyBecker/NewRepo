@@ -148,3 +148,13 @@
         margin: 0 0;
       }
     }
+    @media(max-width:350px){
+      *{
+        margin: 0 0;
+        position: relative;
+      }
+      .navigation{
+        display:flex;
+        justify-content: column;
+      }
+    }
